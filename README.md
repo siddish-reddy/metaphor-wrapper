@@ -5,11 +5,19 @@ v0:
 - [ ] get scroll percentage and if 80%, show popup to see similar sites?
 
 
+v0 workflow examples:
+1. Go to a lesswrong post or some blog, click extension, boom 😂.
+1. Go to a SaaS page, click extension, add "Github.com" in filters and find open source alternatives.
+
+
 Pre AI wrapper:
 
 1. Personal indexing: BM25 of history, and the links mentioned in those pages.
 2. If metaphor results are not relevant, then fallback to results from history/bookmarks.
 
+v1:
+1. for articles: get pages with contradicting ideas
+2. similar articles but from other disciplines (AI agents -> )
 
 ---
 
