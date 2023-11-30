@@ -4,7 +4,7 @@ async function getIndexPopup() {
   console.log(current_tab_url);
   const cleaned_current_tab_url_without_utm = current_tab_url?.replace(/(utm_[^&]+&?)/g, "");
 
-  const domain = cleaned_current_tab_url_without_utm?.split("/")[2];
+  const domain = cleaned_current_tab_url_without_utm?.split("/")[2].replace(/^(www|m|mail|forum)\./, '');
 
   const q = encodeURIComponent(cleaned_current_tab_url_without_utm);
   const filters = encodeURIComponent(JSON.stringify({
